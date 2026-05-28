@@ -33,12 +33,16 @@ asr-indian-languages-benchmark/
 ├── .gitignore
 │
 └── notebooks/
-    ├── 01_speech_signal_processing.ipynb  # Waveforms, MFCC, spectrograms
-    ├── 02_hindi.ipynb
-    ├── 03_bengali.ipynb
-    ├── 04_marathi.ipynb
-    ├── 05_telugu.ipynb
-    └── 06_tamil.ipynb
+    ├── hindi/
+    │   └── IndicConformerASR_IndicVoices_Hindi.ipynb
+    ├── bengali/
+    │   └── 
+    ├── marathi/
+    │   └── IndicConformerASR_IndicVoices_Marathi.ipynb
+    ├── telugu/
+    │   └── 
+    └── tamil/
+        └── 
 ```
 
 ---
