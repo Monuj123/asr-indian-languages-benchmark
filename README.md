@@ -172,19 +172,12 @@ Top-3 SOTA models evaluated per language. Metrics: **Word Error Rate (WER ↓)**
 
 This project establishes a reproducible benchmark for ASR across India's five most spoken languages. Key observations from the experiments:
 
-- **[Finding 1]** — Summarise best performing model type and why.
-- **[Finding 2]** — Note performance gap across languages and likely causes.
-- **[Finding 3]** — Note impact of training data size on results.
 
 ---
 
 ## References
 
-1. Author(s). (Year). *Title*. Venue.
-2. Author(s). (Year). *Title*. Venue.
-3. Author(s). (Year). *Title*. Venue.
-4. Author(s). (Year). *Title*. Venue.
-5. Author(s). (Year). *Title*. Venue.
+
 
 ---
 
