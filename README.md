@@ -86,14 +86,14 @@ jupyter lab
 
 | Notebook | Description |
 |---|---|
-| `01_speech_signal_processing.ipynb` | Foundations — waveforms, STFT, spectrograms, MFCCs |
-| `02_hindi.ipynb` | Dataset loading, model evaluation, WER/CER for Hindi |
-| `03_bengali.ipynb` | Dataset loading, model evaluation, WER/CER for Bengali |
-| `04_marathi.ipynb` | Dataset loading, model evaluation, WER/CER for Marathi |
-| `05_telugu.ipynb` | Dataset loading, model evaluation, WER/CER for Telugu |
-| `06_tamil.ipynb` | Dataset loading, model evaluation, WER/CER for Tamil |
+| `speech_signal_processing.ipynb` | Foundations — waveforms, STFT, spectrograms, MFCCs |
+| `IndicConformerASR_IndicVoices_Hindi.ipynb` | Dataset loading, model evaluation, WER/CER for Hindi |
+| `IndicConformerASR_IndicVoices_Bengali.ipynb` | Dataset loading, model evaluation, WER/CER for Bengali |
+| `IndicConformerASR_IndicVoices_Marathi.ipynb` | Dataset loading, model evaluation, WER/CER for Marathi |
+| `IndicConformerASR_IndicVoices_Telugu.ipynb` | Dataset loading, model evaluation, WER/CER for Telugu |
+| `IndicConformerASR_IndicVoices_Tamil.ipynb` | Dataset loading, model evaluation, WER/CER for Tamil |
 
-> ⚠️ **Start with `01_speech_signal_processing.ipynb`** before running any language notebook.
+> ⚠️ **Start with `speech_signal_processing.ipynb`** before running any language notebook.
 
 Datasets are loaded directly from [HuggingFace Datasets](https://huggingface.co/datasets) — no manual download required.
 
