@@ -95,6 +95,9 @@ jupyter lab
 | `IndicConformerASR_IndicVoices_Telugu.ipynb` | Dataset loading, model evaluation, WER/CER for Telugu |
 | `IndicConformerASR_IndicVoices_Tamil.ipynb` | Dataset loading, model evaluation, WER/CER for Tamil |
 | `IndicWav2Vec(Hindi)_IndicVoices_Hindi.ipynb` | Dataset loading, model evaluation, WER/CER for Hindi |
+| `IndicWav2Vec(Bengali)_IndicVoices_Bengali.ipynb` | Dataset loading, model evaluation, WER/CER for Bengali |
+
+
 
 > ⚠️ **Start with `speech_signal_processing.ipynb`** before running any language notebook.
 
@@ -141,7 +144,7 @@ Top-3 SOTA models evaluated per language. Metrics: **Word Error Rate (WER ↓)**
 
 | Rank | Model | Dataset | Test Samples | WER (%) | CER (%) |
 |------|-------|---------|--------------|---------|---------|
-| 1 | — | — | — | — | — |
+| 1 | IndicWav2Vec(Bengali) | IndicVoices-Bengali | 3906 | 46.7 | 21.2 |
 | 2 | — | — | — | — | — |
 | 3 | — | — | — | — | — |
 
