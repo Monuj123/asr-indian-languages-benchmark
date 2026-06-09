@@ -38,7 +38,7 @@ asr-indian-languages-benchmark/
     │   └── IndicConformerASR_IndicVoices_Hindi.ipynb
     |   └── IndicWav2Vec(Hindi)_IndicVoices_Hindi.ipynb
     ├── bengali/
-    │   └── 
+    │   └── IndicWav2Vec(Bengali)_IndicVoices_Bengali.ipynb
     ├── marathi/
     │   └── IndicConformerASR_IndicVoices_Marathi.ipynb
     ├── telugu/
