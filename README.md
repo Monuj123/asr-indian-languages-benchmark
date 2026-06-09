@@ -36,6 +36,7 @@ asr-indian-languages-benchmark/
     ├── speech_signal_processing.ipynb
     ├── hindi/
     │   └── IndicConformerASR_IndicVoices_Hindi.ipynb
+    |   └── IndicWav2Vec(Hindi)_IndicVoices_Hindi.ipynb
     ├── bengali/
     │   └── 
     ├── marathi/
