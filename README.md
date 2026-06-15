@@ -142,7 +142,7 @@ Top-3 SOTA models evaluated per language. Metrics: **Word Error Rate (WER ↓)**
 | 1 | Vaani_FastConformer(Hindi)_IndicVoices_Hindi | IndicVoices-Hindi | 5530 | 15.11 | 7.09 |
 | 2 | IndicWav2Vec-Hindi | IndicVoices-Hindi | 4740 | 38.6 | 22.5 |
 | 3 | IndicConformer(indic-conformer-600m-multilingual) | IndicVoices-Hindi | 4740 | 16.6(CTC) | 7.3(CTC) |
-                                                                                     15.3(RNNT)  7.2(RNNT)
+|   |                                                   |                   |      | 15.3(RNNT | 7.2(RNNT)|                                                                       
 
 ### Bengali
 
@@ -150,24 +150,25 @@ Top-3 SOTA models evaluated per language. Metrics: **Word Error Rate (WER ↓)**
 |------|-------|---------|--------------|---------|---------|
 | 1 | IndicWav2Vec(Bengali) | IndicVoices-Bengali | 3906 | 46.7 | 21.2 |
 | 2 | IndicConformer(indic-conformer-600m-multilingual) | IndicVoices-Bengali | 3906 | 100.76(CTC) | 87(CTC) |
-| |  |  |  | 100.05(RNNT) | 92.6(RNNT) |
+|   |                                                   |                     |      | 100.05(RNNT)| 92.6(RNNT)|
 | 3 | — | — | — | — | — |
 
 ### Marathi
 
 | Rank | Model | Dataset | Test Samples | WER (%) | CER (%) |
 |------|-------|---------|--------------|---------|---------|
-| 1 | IndicConformer(indic-conformer-600m-multilingual) | IndicVoices | 3552 | 16(CTC),14.9(RNNT) | 5.69(CTC),5.61(RNNT) |
+| 1 | IndicConformer(indic-conformer-600m-multilingual) | IndicVoices | 3552 | 16(CTC) | 5.69(CTC) |
+|  | — | — | — | 14.9(RNNT) | 5.61(RNNT) |
 | 2 | — | — | — | — | — |
-| 3 | — | — | — | — | — |
 
 ### Telugu
 
 | Rank | Model | Dataset | Test Samples | WER (%) | CER (%) |
 |------|-------|---------|--------------|---------|---------|
-| 1 | IndicConformer(indic-conformer-600m-multilingual) | IndicVoices-Telugu | 3295 | 27.86(CTC),26.28(RNNT) | 8.53(CTC),8.42(RNNT) |
+| 1 | IndicConformer(indic-conformer-600m-multilingual) | IndicVoices-Telugu | 3295 | 27.86(CTC), | 8.53(CTC) |
+|   |  |  |  | 26.28(RNNT) | 8.42(RNNT) |
 | 2 | ARTPARK-IISc/Vaani-FastConformer-Telugu | IndicVoices-Telugu | 3295 | 27.31 | 8.77 |
-| 3 | — | — | — | — | — |
+
 
 ### Tamil
 
