@@ -39,6 +39,7 @@ asr-indian-languages-benchmark/
     |   └── IndicWav2Vec(Hindi)_IndicVoices_Hindi.ipynb
     ├── bengali/
     │   └── IndicWav2Vec(Bengali)_IndicVoices_Bengali.ipynb
+    |   └── IndicConformerASR_IndicVoices_Bengali.ipynb
     ├── marathi/
     │   └── IndicConformerASR_IndicVoices_Marathi.ipynb
     ├── telugu/
@@ -145,14 +146,14 @@ Top-3 SOTA models evaluated per language. Metrics: **Word Error Rate (WER ↓)**
 | Rank | Model | Dataset | Test Samples | WER (%) | CER (%) |
 |------|-------|---------|--------------|---------|---------|
 | 1 | IndicWav2Vec(Bengali) | IndicVoices-Bengali | 3906 | 46.7 | 21.2 |
-| 2 | — | — | — | — | — |
+| 2 | IndicConformer(indic-conformer-600m-multilingual) | IndicVoices-Bengali | 3906 | 100.76(CTC),100.05(RNNT) | 87(CTC),92.6(RNNT) |
 | 3 | — | — | — | — | — |
 
 ### Marathi
 
 | Rank | Model | Dataset | Test Samples | WER (%) | CER (%) |
 |------|-------|---------|--------------|---------|---------|
-| 1 | IndicConformer(indic-conformer-600m-multilingual | IndicVoices | 3552 | 16(CTC),14.9(RNNT) | 5.69(CTC),5.61(RNNT) |
+| 1 | IndicConformer(indic-conformer-600m-multilingual) | IndicVoices | 3552 | 16(CTC),14.9(RNNT) | 5.69(CTC),5.61(RNNT) |
 | 2 | — | — | — | — | — |
 | 3 | — | — | — | — | — |
 
