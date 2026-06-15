@@ -161,7 +161,7 @@ Top-3 SOTA models evaluated per language. Metrics: **Word Error Rate (WER ↓)**
 
 | Rank | Model | Dataset | Test Samples | WER (%) | CER (%) |
 |------|-------|---------|--------------|---------|---------|
-| 1 | — | — | — | — | — |
+| 1 | IndicConformer(indic-conformer-600m-multilingual) | IndicVoices-Telugu | 3295 | 27.86(CTC),26.28(RNNT) | 8.53(CTC),8.42(RNNT) |
 | 2 | — | — | — | — | — |
 | 3 | — | — | — | — | — |
 
@@ -169,7 +169,7 @@ Top-3 SOTA models evaluated per language. Metrics: **Word Error Rate (WER ↓)**
 
 | Rank | Model | Dataset | Test Samples | WER (%) | CER (%) |
 |------|-------|---------|--------------|---------|---------|
-| 1 | IndicConformer(indic-conformer-600m-multilingual) | IndicVoices | 5276 | 34.7(CTC),30.7(RNNT) | 10.1(CTC),9.1(RNNT) |
+| 1 | IndicConformer(indic-conformer-600m-multilingual) | IndicVoices-Tamil | 5276 | 34.7(CTC),30.7(RNNT) | 10.1(CTC),9.1(RNNT) |
 | 2 | — | — | — | — | — |
 | 3 | — | — | — | — | — |
 
