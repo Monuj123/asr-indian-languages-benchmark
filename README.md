@@ -43,7 +43,7 @@ asr-indian-languages-benchmark/
     ├── marathi/
     │   └── IndicConformerASR_IndicVoices_Marathi.ipynb
     ├── telugu/
-    │   └── 
+    │   └── Vaani_FastConformer(Telugu)_IndicVoices_Telugu.ipynb
     └── tamil/
         └── 
 ```
@@ -97,7 +97,7 @@ jupyter lab
 | `IndicConformerASR_IndicVoices_Tamil.ipynb` | Dataset loading, model evaluation, WER/CER for Tamil |
 | `IndicWav2Vec(Hindi)_IndicVoices_Hindi.ipynb` | Dataset loading, model evaluation, WER/CER for Hindi |
 | `IndicWav2Vec(Bengali)_IndicVoices_Bengali.ipynb` | Dataset loading, model evaluation, WER/CER for Bengali |
-
+| `Vaani_FastConformer(Telugu)_IndicVoices_Telugu.ipynb` | Dataset loading, model evaluation, WER/CER for Telugu |
 
 
 > ⚠️ **Start with `speech_signal_processing.ipynb`** before running any language notebook.
