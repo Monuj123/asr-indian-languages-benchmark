@@ -37,6 +37,7 @@ asr-indian-languages-benchmark/
     ├── hindi/
     │   └── IndicConformerASR_IndicVoices_Hindi.ipynb
     |   └── IndicWav2Vec(Hindi)_IndicVoices_Hindi.ipynb
+    |   └── Vaani_FastConformer(Hindi)_IndicVoices_Hindi.ipynb
     ├── bengali/
     │   └── IndicWav2Vec(Bengali)_IndicVoices_Bengali.ipynb
     |   └── IndicConformerASR_IndicVoices_Bengali.ipynb
@@ -98,6 +99,7 @@ jupyter lab
 | `IndicWav2Vec(Hindi)_IndicVoices_Hindi.ipynb` | Dataset loading, model evaluation, WER/CER for Hindi |
 | `IndicWav2Vec(Bengali)_IndicVoices_Bengali.ipynb` | Dataset loading, model evaluation, WER/CER for Bengali |
 | `Vaani_FastConformer(Telugu)_IndicVoices_Telugu.ipynb` | Dataset loading, model evaluation, WER/CER for Telugu |
+| `Vaani_FastConformer(Hindi)_IndicVoices_Hindi.ipynb` | Dataset loading, model evaluation, WER/CER for Telugu |
 
 
 > ⚠️ **Start with `speech_signal_processing.ipynb`** before running any language notebook.
@@ -139,7 +141,7 @@ Top-3 SOTA models evaluated per language. Metrics: **Word Error Rate (WER ↓)**
 |------|-------|---------|--------------|---------|---------|
 | 1 | IndicConformer(indic-conformer-600m-multilingual) | IndicVoices-Hindi | 4740 | 16.6(CTC),15.3(RNNT) | 7.3(CTC),7.2(RNNT) |
 | 2 | IndicWav2Vec-Hindi | IndicVoices-Hindi | 4740 | 38.6 | 22.5 |
-| 3 | — | — | — | — | — |
+| 3 | Vaani_FastConformer(Hindi)_IndicVoices_Hindi | IndicVoices-Hindi | 5530 | 15.11 | 7.09 |
 
 ### Bengali
 
