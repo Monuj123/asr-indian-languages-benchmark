@@ -197,7 +197,6 @@ This project establishes a reproducible benchmark for ASR across India's five mo
 
 Overall, IndicConformer-600m-multilingual with RNNT decoding is the recommended baseline for any Indic ASR application spanning multiple languages. Future work should focus on improving Tamil and Telugu performance, expanding coverage to more Indian languages, and evaluating fine-tuned variants on domain-specific speech.
 
-Overall, IndicConformer-600m-multilingual with RNNT decoding is the recommended baseline for any Indic ASR application spanning multiple languages. Future work should focus on improving Tamil and Telugu performance, expanding coverage to more Indian languages, and evaluating fine-tuned variants on domain-specific speech.
 
 
 ---
