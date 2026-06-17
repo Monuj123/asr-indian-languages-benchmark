@@ -190,13 +190,13 @@ This project establishes a reproducible benchmark for ASR across India's five mo
 Conclusion
 This project establishes a reproducible benchmark for ASR across India's five most spoken languages. Key observations from the experiments:
 
-IndicConformer-600m-multilingual is the dominant model across all five languages. It ranks first in Bengali (13.49% WER RNNT), Marathi (14.9% RNNT), Hindi (15.3% RNNT), Telugu (26.28% RNNT), and Tamil (30.7% RNNT) — making it the most reliable choice for multilingual Indic ASR.
-RNNT decoder consistently outperforms CTC across every language and both WER and CER metrics. The gap is modest but consistent — for example, Hindi: 15.3% vs 16.6% WER, Tamil: 30.7% vs 34.7% WER. RNNT should be the default decoder where latency is not a hard constraint.
-Vaani-FastConformer-Hindi is the sole exception to IndicConformer's dominance, edging it out on Hindi with a WER of 15.11% vs 15.3% (RNNT). For Hindi-only deployments, it is the preferred choice.
-Telugu is the most competitive language in this benchmark, with IndicConformer RNNT (26.28%) and Vaani-FastConformer-Telugu (27.31%) separated by less than 1 percentage point — both are viable options depending on deployment constraints.
-IndicWav2Vec models lag significantly behind the conformer-based architectures. IndicWav2Vec-Hindi scores 38.6% WER and IndicWav2Vec-Bengali 46.7% WER, compared to sub-17% and sub-14% respectively from IndicConformer — a gap too large to overlook in production settings.
-Tamil remains the hardest language in this benchmark, with the best WER at 30.7% (IndicConformer RNNT) — notably higher than Marathi (14.9%) and Bengali (13.49%), suggesting greater acoustic and linguistic complexity or lower training data coverage for Tamil in current models.
-Bengali shows strong model performance (13.49% WER), the best of all five languages under IndicConformer, indicating that training data quality and coverage for Bengali in the IndicVoices dataset aligns well with this model family.
+- IndicConformer-600m-multilingual is the dominant model across all five languages. It ranks first in Bengali (13.49% WER RNNT), Marathi (14.9% RNNT), Hindi (15.3% RNNT), Telugu (26.28% RNNT), and Tamil (30.7% RNNT) — making it the most reliable choice for multilingual Indic ASR.
+- RNNT decoder consistently outperforms CTC across every language and both WER and CER metrics. The gap is modest but consistent — for example, Hindi: 15.3% vs 16.6% WER, Tamil: 30.7% vs 34.7% WER. RNNT should be the default decoder where latency is not a hard constraint.
+- Vaani-FastConformer-Hindi is the sole exception to IndicConformer's dominance, edging it out on Hindi with a WER of 15.11% vs 15.3% (RNNT). For Hindi-only deployments, it is the preferred choice.
+- Telugu is the most competitive language in this benchmark, with IndicConformer RNNT (26.28%) and Vaani-FastConformer-Telugu (27.31%) separated by less than 1 percentage point — both are viable options depending on deployment constraints.
+- IndicWav2Vec models lag significantly behind the conformer-based architectures. IndicWav2Vec-Hindi scores 38.6% WER and IndicWav2Vec-Bengali 46.7% WER, compared to sub-17% and sub-14% respectively from IndicConformer — a gap too large to overlook in production settings.
+- Tamil remains the hardest language in this benchmark, with the best WER at 30.7% (IndicConformer RNNT) — notably higher than Marathi (14.9%) and Bengali (13.49%), suggesting greater acoustic and linguistic complexity or lower training data coverage for Tamil in current models.
+- Bengali shows strong model performance (13.49% WER), the best of all five languages under IndicConformer, indicating that training data quality and coverage for Bengali in the IndicVoices dataset aligns well with this model family.
 
 Overall, IndicConformer-600m-multilingual with RNNT decoding is the recommended baseline for any Indic ASR application spanning multiple languages. Future work should focus on improving Tamil and Telugu performance, expanding coverage to more Indian languages, and evaluating fine-tuned variants on domain-specific speech.
 
