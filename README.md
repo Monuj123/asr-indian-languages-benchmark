@@ -100,6 +100,7 @@ jupyter lab
 | `IndicWav2Vec(Bengali)_IndicVoices_Bengali.ipynb` | Dataset loading, model evaluation, WER/CER for Bengali |
 | `Vaani_FastConformer(Telugu)_IndicVoices_Telugu.ipynb` | Dataset loading, model evaluation, WER/CER for Telugu |
 | `Vaani_FastConformer(Hindi)_IndicVoices_Hindi.ipynb` | Dataset loading, model evaluation, WER/CER for Hindi |
+| `ARTPARK-IISc/whisper-medium-vaani-telugu.ipynb` | Dataset loading, model evaluation, WER/CER for Telugu |
 
 
 > ⚠️ **Start with `speech_signal_processing.ipynb`** before running any language notebook.
@@ -168,6 +169,7 @@ Top-3 SOTA models evaluated per language. Metrics: **Word Error Rate (WER ↓)**
 | 1 | IndicConformer(indic-conformer-600m-multilingual) | IndicVoices-Telugu | 3295 | 27.86(CTC), | 8.53(CTC) |
 |   |  |  |  | 26.28(RNNT) | 8.42(RNNT) |
 | 2 | ARTPARK-IISc/Vaani-FastConformer-Telugu | IndicVoices-Telugu | 3295 | 27.31 | 8.77 |
+| 3 | ARTPARK-IISc/whisper-medium-vaani-telugu| IndicVoices-Telugu | 3295 | 61.69 | 25.69 |
 
 
 ### Tamil
