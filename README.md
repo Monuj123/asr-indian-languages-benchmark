@@ -187,9 +187,6 @@ Top-3 SOTA models evaluated per language. Metrics: **Word Error Rate (WER ↓)**
 
 This project establishes a reproducible benchmark for ASR across India's five most spoken languages. Key observations from the experiments:
 
-Conclusion
-This project establishes a reproducible benchmark for ASR across India's five most spoken languages. Key observations from the experiments:
-
 - IndicConformer-600m-multilingual is the dominant model across all five languages. It ranks first in Bengali (13.49% WER RNNT), Marathi (14.9% RNNT), Hindi (15.3% RNNT), Telugu (26.28% RNNT), and Tamil (30.7% RNNT) — making it the most reliable choice for multilingual Indic ASR.
 - RNNT decoder consistently outperforms CTC across every language and both WER and CER metrics. The gap is modest but consistent — for example, Hindi: 15.3% vs 16.6% WER, Tamil: 30.7% vs 34.7% WER. RNNT should be the default decoder where latency is not a hard constraint.
 - Vaani-FastConformer-Hindi is the sole exception to IndicConformer's dominance, edging it out on Hindi with a WER of 15.11% vs 15.3% (RNNT). For Hindi-only deployments, it is the preferred choice.
