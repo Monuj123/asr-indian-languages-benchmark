@@ -149,9 +149,9 @@ Top-3 SOTA models evaluated per language. Metrics: **Word Error Rate (WER ↓)**
 
 | Rank | Model | Dataset | Test Samples | WER (%) | CER (%) |
 |------|-------|---------|--------------|---------|---------|
-| 1 | IndicWav2Vec(Bengali) | IndicVoices-Bengali | 3906 | 46.7 | 21.2 |
-| 2 | IndicConformer(indic-conformer-600m-multilingual) | IndicVoices-Bengali | 3906 | 14.23(CTC) | 5.41(CTC) |
+| 1 | IndicConformer(indic-conformer-600m-multilingual) | IndicVoices-Bengali | 3906 | 14.23(CTC) | 5.41(CTC) |
 |   |                                                   |                     |      | 13.49(RNNT)| 5.36(RNNT)|
+| 2 | IndicWav2Vec(Bengali) | IndicVoices-Bengali | 3906 | 46.7 | 21.2 |
 | 3 | — | — | — | — | — |
 
 ### Marathi
@@ -161,6 +161,7 @@ Top-3 SOTA models evaluated per language. Metrics: **Word Error Rate (WER ↓)**
 | 1 | IndicConformer(indic-conformer-600m-multilingual) | IndicVoices | 3552 | 16(CTC) | 5.69(CTC) |
 |  | — | — | — | 14.9(RNNT) | 5.61(RNNT) |
 | 2 | — | — | — | — | — |
+| 3 | — | — | — | — | — |
 
 ### Telugu
 
