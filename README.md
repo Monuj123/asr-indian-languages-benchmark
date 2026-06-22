@@ -181,7 +181,7 @@ Top-3 SOTA models evaluated per language. Metrics: **Word Error Rate (WER ↓)**
 |------|-------|---------|--------------|---------|---------|
 | 1 | IndicConformer(indic-conformer-600m-multilingual) | IndicVoices-Tamil | 5276 | 34.7(CTC) | 10.1(CTC) |
 |  |  |  |  | 30.7(RNNT) | 9.1(RNNT) |
-| 2 | IndicWhisper_Kathbath_Tamil | Kathbath-Tamil | 1642 | 24.9 | 4.47 |
+| 2 | IndicWhisper | Kathbath-Tamil | 1642 | 24.9 | 4.47 |
 
 ---
 
