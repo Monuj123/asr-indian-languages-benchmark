@@ -47,6 +47,7 @@ asr-indian-languages-benchmark/
     │   └── Vaani_FastConformer(Telugu)_IndicVoices_Telugu.ipynb
     └── tamil/
         └── IndicConformerASR_IndicVoices_Tamil.ipynb
+        └── IndicWhisper_Kathbath_Tamil.ipynb
 ```
 
 ---
@@ -101,6 +102,7 @@ jupyter lab
 | `Vaani_FastConformer(Telugu)_IndicVoices_Telugu.ipynb` | Dataset loading, model evaluation, WER/CER for Telugu |
 | `Vaani_FastConformer(Hindi)_IndicVoices_Hindi.ipynb` | Dataset loading, model evaluation, WER/CER for Hindi |
 | `ARTPARK-IISc/whisper-medium-vaani-telugu.ipynb` | Dataset loading, model evaluation, WER/CER for Telugu |
+| `IndicWhisper_Kathbath_Tamil.ipynb` | Dataset loading, model evaluation, WER/CER for Tamil |
 
 
 > ⚠️ **Start with `speech_signal_processing.ipynb`** before running any language notebook.
@@ -179,7 +181,7 @@ Top-3 SOTA models evaluated per language. Metrics: **Word Error Rate (WER ↓)**
 |------|-------|---------|--------------|---------|---------|
 | 1 | IndicConformer(indic-conformer-600m-multilingual) | IndicVoices-Tamil | 5276 | 34.7(CTC) | 10.1(CTC) |
 |  |  |  |  | 30.7(RNNT) | 9.1(RNNT) |
-| 2 | — | — | — | — | — |
+| 2 | IndicWhisper_Kathbath_Tamil | Kathbath-Tamil | 1642 | 24.9 | 4.47 |
 
 ---
 
