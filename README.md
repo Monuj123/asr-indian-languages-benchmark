@@ -43,6 +43,7 @@ asr-indian-languages-benchmark/
     |   └── IndicConformerASR_IndicVoices_Bengali.ipynb
     ├── marathi/
     │   └── IndicConformerASR_IndicVoices_Marathi.ipynb
+    |   └── IndicWhisper_Kathbath_Marathi.ipynb
     ├── telugu/
     │   └── Vaani_FastConformer(Telugu)_IndicVoices_Telugu.ipynb
     └── tamil/
@@ -103,6 +104,7 @@ jupyter lab
 | `Vaani_FastConformer(Hindi)_IndicVoices_Hindi.ipynb` | Dataset loading, model evaluation, WER/CER for Hindi |
 | `ARTPARK-IISc/whisper-medium-vaani-telugu.ipynb` | Dataset loading, model evaluation, WER/CER for Telugu |
 | `IndicWhisper_Kathbath_Tamil.ipynb` | Dataset loading, model evaluation, WER/CER for Tamil |
+| `IndicWhisper_Kathbath_Marathi.ipynb` | Dataset loading, model evaluation, WER/CER for Marathi |
 
 
 > ⚠️ **Start with `speech_signal_processing.ipynb`** before running any language notebook.
@@ -162,7 +164,7 @@ Top-3 SOTA models evaluated per language. Metrics: **Word Error Rate (WER ↓)**
 |------|-------|---------|--------------|---------|---------|
 | 1 | IndicConformer(indic-conformer-600m-multilingual) | IndicVoices | 3552 | 16(CTC) | 5.69(CTC) |
 |  | — | — | — | 14.9(RNNT) | 5.61(RNNT) |
-| 2 | — | — | — | — | — |
+| 2 | IndicWhisper | Kathbath | 1631 | 20.25 | 6.52 |
 | 3 | — | — | — | — | — |
 
 ### Telugu
