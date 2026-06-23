@@ -41,6 +41,7 @@ asr-indian-languages-benchmark/
     ├── bengali/
     │   └── IndicWav2Vec(Bengali)_IndicVoices_Bengali.ipynb
     |   └── IndicConformerASR_IndicVoices_Bengali.ipynb
+    |   └── IndicWhisper_Kathbath_Bengali.ipynb
     ├── marathi/
     │   └── IndicConformerASR_IndicVoices_Marathi.ipynb
     |   └── IndicWhisper_Kathbath_Marathi.ipynb
@@ -105,6 +106,7 @@ jupyter lab
 | `ARTPARK-IISc/whisper-medium-vaani-telugu.ipynb` | Dataset loading, model evaluation, WER/CER for Telugu |
 | `IndicWhisper_Kathbath_Tamil.ipynb` | Dataset loading, model evaluation, WER/CER for Tamil |
 | `IndicWhisper_Kathbath_Marathi.ipynb` | Dataset loading, model evaluation, WER/CER for Marathi |
+| `IndicWhisper_Kathbath_Bengali.ipynb` | Dataset loading, model evaluation, WER/CER for Bengali |
 
 
 > ⚠️ **Start with `speech_signal_processing.ipynb`** before running any language notebook.
@@ -156,7 +158,7 @@ Top-3 SOTA models evaluated per language. Metrics: **Word Error Rate (WER ↓)**
 | 1 | IndicConformer(indic-conformer-600m-multilingual) | IndicVoices-Bengali | 3906 | 14.23(CTC) | 5.41(CTC) |
 |   |                                                   |                     |      | 13.49(RNNT)| 5.36(RNNT)|
 | 2 | IndicWav2Vec(Bengali) | IndicVoices-Bengali | 3906 | 46.7 | 21.2 |
-| 3 | — | — | — | — | — |
+| 3 | IndicWhisper(Bengali) | Kathbath-Bengali| 1783 | 19.22 | 5.51 |
 
 ### Marathi
 
@@ -164,7 +166,7 @@ Top-3 SOTA models evaluated per language. Metrics: **Word Error Rate (WER ↓)**
 |------|-------|---------|--------------|---------|---------|
 | 1 | IndicConformer(indic-conformer-600m-multilingual) | IndicVoices | 3552 | 16(CTC) | 5.69(CTC) |
 |  | — | — | — | 14.9(RNNT) | 5.61(RNNT) |
-| 2 | IndicWhisper | Kathbath | 1631 | 20.25 | 6.52 |
+| 2 | IndicWhisper(Marathi) | Kathbath | 1631 | 20.25 | 6.52 |
 | 3 | — | — | — | — | — |
 
 ### Telugu
@@ -183,7 +185,7 @@ Top-3 SOTA models evaluated per language. Metrics: **Word Error Rate (WER ↓)**
 |------|-------|---------|--------------|---------|---------|
 | 1 | IndicConformer(indic-conformer-600m-multilingual) | IndicVoices-Tamil | 5276 | 34.7(CTC) | 10.1(CTC) |
 |  |  |  |  | 30.7(RNNT) | 9.1(RNNT) |
-| 2 | IndicWhisper | Kathbath-Tamil | 1642 | 24.9 | 4.47 |
+| 2 | IndicWhisper(Tamil) | Kathbath-Tamil | 1642 | 24.9 | 4.47 |
 
 ---
 
