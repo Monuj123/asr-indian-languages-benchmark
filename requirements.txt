@@ -1,10 +1,9 @@
-
 # Core ML & Audio
 torch
 torchaudio
 transformers
 
-# ONNX (specific versions required by the model)
+# ONNX
 onnxruntime==1.20.1
 onnx==1.20.1
 
@@ -12,10 +11,21 @@ onnx==1.20.1
 huggingface_hub
 datasets
 
+# Audio Processing
+librosa
+soundfile
+
+# Indian Language Normalization
+indic-nlp-library
+
 # Evaluation Metrics
-jiwer
+editdistance
 
 # Utilities
+joblib
 tqdm
 numpy
 matplotlib
+
+# System dependency (install separately)
+# sudo apt install ffmpeg -y
