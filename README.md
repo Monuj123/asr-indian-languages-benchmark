@@ -107,6 +107,8 @@ jupyter lab
 | `IndicWhisper_Kathbath_Tamil.ipynb` | Dataset loading, model evaluation, WER/CER for Tamil |
 | `IndicWhisper_Kathbath_Marathi.ipynb` | Dataset loading, model evaluation, WER/CER for Marathi |
 | `IndicWhisper_Kathbath_Bengali.ipynb` | Dataset loading, model evaluation, WER/CER for Bengali |
+| `IndicWhisper_Kathbath_Hindi.ipynb` | Dataset loading, model evaluation, WER/CER for Hindi |
+| `IndicWhisper_Kathbath_Telugu.ipynb` | Dataset loading, model evaluation, WER/CER for Telugu |
 
 
 > ⚠️ **Start with `speech_signal_processing.ipynb`** before running any language notebook.
