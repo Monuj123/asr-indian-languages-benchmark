@@ -38,6 +38,7 @@ asr-indian-languages-benchmark/
     │   └── IndicConformerASR_IndicVoices_Hindi.ipynb
     |   └── IndicWav2Vec(Hindi)_IndicVoices_Hindi.ipynb
     |   └── Vaani_FastConformer(Hindi)_IndicVoices_Hindi.ipynb
+    |   └── IndicWhisper_Kathbath_Hindi.ipynb
     ├── bengali/
     │   └── IndicWav2Vec(Bengali)_IndicVoices_Bengali.ipynb
     |   └── IndicConformerASR_IndicVoices_Bengali.ipynb
