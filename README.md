@@ -97,7 +97,7 @@ jupyter lab
 | `IndicConformerASR_IndicVoices_Hindi.ipynb` | Dataset loading, model evaluation, WER/CER for Hindi |
 | `IndicConformerASR_IndicVoices_Bengali.ipynb` | Dataset loading, model evaluation, WER/CER for Bengali |
 | `IndicConformerASR_IndicVoices_Marathi.ipynb` | Dataset loading, model evaluation, WER/CER for Marathi |
-| `IndicConformerASR_IndicVoices_Telugu.ipynb` | Dataset loading, model evaluation, WER/CER for Telugu |
+| `IndicConformer_IndicVoices_Telugu.ipynb` | Dataset loading, model evaluation, WER/CER for Telugu |
 | `IndicConformerASR_IndicVoices_Tamil.ipynb` | Dataset loading, model evaluation, WER/CER for Tamil |
 | `IndicWav2Vec(Hindi)_IndicVoices_Hindi.ipynb` | Dataset loading, model evaluation, WER/CER for Hindi |
 | `IndicWav2Vec(Bengali)_IndicVoices_Bengali.ipynb` | Dataset loading, model evaluation, WER/CER for Bengali |
