@@ -48,6 +48,7 @@ asr-indian-languages-benchmark/
     |   └── IndicWhisper_Kathbath_Marathi.ipynb
     ├── telugu/
     │   └── Vaani_FastConformer(Telugu)_IndicVoices_Telugu.ipynb
+    |   └── IndicWhisper_Kathbath_Telugu.ipynb
     └── tamil/
         └── IndicConformerASR_IndicVoices_Tamil.ipynb
         └── IndicWhisper_Kathbath_Tamil.ipynb
