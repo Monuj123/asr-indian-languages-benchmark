@@ -142,7 +142,7 @@ See [`requirements.txt`](requirements.txt) for the full list.
 
 ## Experimental Results
 
-Top-3 SOTA models evaluated per language. Metrics: **Word Error Rate (WER ↓)** and **Character Error Rate (CER ↓)**.
+Top SOTA models evaluated per language. Metrics: **Word Error Rate (WER ↓)** and **Character Error Rate (CER ↓)**.
 
 > Results will be updated upon completion of benchmarking runs.
 
