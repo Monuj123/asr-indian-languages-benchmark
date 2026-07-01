@@ -148,28 +148,29 @@ Top-3 SOTA models evaluated per language. Metrics: **Word Error Rate (WER ↓)**
 
 ### Hindi
 
-| Rank | Model | Dataset | Test Samples | WER (%) | CER (%) |
+| S. No. | Model | Dataset | Test Samples | WER (%) | CER (%) |
 |------|-------|---------|--------------|---------|---------|
 | 1 | Vaani_FastConformer(Hindi)| IndicVoices-Hindi | 5530 | 15.11 | 7.09 |
 | 2 | IndicConformer(indic-conformer-600m-multilingual) | IndicVoices-Hindi | 5530 | 16.6(CTC) | 7.3(CTC) |
 |   |                                                   |                   |      | 15.3(RNNT | 7.2(RNNT)|       
 | 3 | IndicWav2Vec-Hindi | IndicVoices-Hindi | 5530 | 38.6 | 22.5 |
-| 1 | IndicWhisper-Hindi | Kathbath-Hindi | 1929 | 10.23 | 3.65 |
-| 2 | Sarvam Saaras v3 | Kathbath-Hindi | 1929 | 14.78 | 4.59 |
+| 4 | IndicWhisper-Hindi | Kathbath-Hindi | 1929 | 10.23 | 3.65 |
+| 5 | Sarvam Saaras v3 | Kathbath-Hindi | 1929 | 14.78 | 4.59 |
+| 6 | Gnani Prisma v2.5| Kathbath-Hindi | 1929 | 8.78 | 3.26 |
 
 ### Bengali
 
-| Rank | Model | Dataset | Test Samples | WER (%) | CER (%) |
+| S. No. | Model | Dataset | Test Samples | WER (%) | CER (%) |
 |------|-------|---------|--------------|---------|---------|
 | 1 | IndicConformer(indic-conformer-600m-multilingual) | IndicVoices-Bengali | 3906 | 14.23(CTC) | 5.41(CTC) |
 |   |                                                   |                     |      | 13.49(RNNT)| 5.36(RNNT)|
 | 2 | IndicWav2Vec(Bengali) | IndicVoices-Bengali | 3906 | 46.7 | 21.2 |
 | 3 | IndicWhisper(Bengali) | Kathbath-Bengali| 1783 | 19.22 | 5.51 |
-| 1 | Sarvam Saaras v3 | Kathbath-Bengali| 1783 | 21.21 | 5.07 |
+| 4 | Sarvam Saaras v3 | Kathbath-Bengali| 1783 | 21.21 | 5.07 |
 
 ### Marathi
 
-| Rank | Model | Dataset | Test Samples | WER (%) | CER (%) |
+| S. No. | Model | Dataset | Test Samples | WER (%) | CER (%) |
 |------|-------|---------|--------------|---------|---------|
 | 1 | IndicConformer(indic-conformer-600m-multilingual) | IndicVoices-Marathi | 3552 | 16(CTC) | 5.69(CTC) |
 |  | — | — | — | 14.9(RNNT) | 5.61(RNNT) |
@@ -178,19 +179,20 @@ Top-3 SOTA models evaluated per language. Metrics: **Word Error Rate (WER ↓)**
 
 ### Telugu
 
-| Rank | Model | Dataset | Test Samples | WER (%) | CER (%) |
+| S. No. | Model | Dataset | Test Samples | WER (%) | CER (%) |
 |------|-------|---------|--------------|---------|---------|
 | 1 | IndicConformer(indic-conformer-600m-multilingual) | IndicVoices-Telugu | 3295 | 27.86(CTC), | 8.53(CTC) |
 |   |  |  |  | 26.28(RNNT) | 8.42(RNNT) |
 | 2 | ARTPARK-IISc/Vaani-FastConformer-Telugu | IndicVoices-Telugu | 3295 | 27.31 | 8.77 |
 | 3 | ARTPARK-IISc/whisper-medium-vaani-telugu| IndicVoices-Telugu | 3295 | 61.69 | 25.69 |
-| 1 | Sarvam Saaras v3| Kathbath-Telugu | 1492 | 24.8 | 3.7 |
-| 2 | IndicWhisper-Telugu| Kathbath-Telugu | 1492 | 36.9 | 12.9 |
+| 4 | Sarvam Saaras v3| Kathbath-Telugu | 1492 | 24.8 | 3.7 |
+| 5 | IndicWhisper-Telugu| Kathbath-Telugu | 1492 | 36.9 | 12.9 |
+| 6 | Gnani Prisma v2.5| Kathbath-Telugu | 1492 | 25.53 | 7.55 |
 
 
 ### Tamil
 
-| Rank | Model | Dataset | Test Samples | WER (%) | CER (%) |
+| S. No. | Model | Dataset | Test Samples | WER (%) | CER (%) |
 |------|-------|---------|--------------|---------|---------|
 | 1 | IndicConformer(indic-conformer-600m-multilingual) | IndicVoices-Tamil | 5276 | 34.7(CTC) | 10.1(CTC) |
 |  |  |  |  | 30.7(RNNT) | 9.1(RNNT) |
