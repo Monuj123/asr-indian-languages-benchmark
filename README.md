@@ -173,7 +173,7 @@ Top-3 SOTA models evaluated per language. Metrics: **Word Error Rate (WER ↓)**
 | S. No. | Model | Dataset | Test Samples | WER (%) | CER (%) |
 |------|-------|---------|--------------|---------|---------|
 | 1 | IndicConformer(indic-conformer-600m-multilingual) | IndicVoices-Marathi | 3552 | 16(CTC) | 5.69(CTC) |
-|  | — | — | — | 14.9(RNNT) | 5.61(RNNT) |
+|  |  |  |  | 14.9(RNNT) | 5.61(RNNT) |
 | 2 | IndicWhisper(Marathi) | Kathbath-Marathi | 1631 | 20.25 | 6.52 |
 | 3 | Sarvam Saaras v3 |Kathbath-Marathi | 1631 | 20.46 | 5.96 |
 
