@@ -1,0 +1,12 @@
+{
+  "language": "marathi",
+  "language_code": "mr-IN",
+  "model": "gnani-prisma-v2.5",
+  "format": "transcribe",
+  "total_samples": 1631,
+  "success": 1625,
+  "errors": 6,
+  "avg_wer": 0.1689,
+  "avg_cer": 0.0572,
+  "timestamp": "2026-07-02T15:39:13.411939"
+}

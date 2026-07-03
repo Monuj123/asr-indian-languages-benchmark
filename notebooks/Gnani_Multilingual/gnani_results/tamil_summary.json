@@ -1,0 +1,12 @@
+{
+  "language": "tamil",
+  "language_code": "ta-IN",
+  "model": "gnani-prisma-v2.5",
+  "format": "transcribe",
+  "total_samples": 1642,
+  "success": 1639,
+  "errors": 3,
+  "avg_wer": 0.2496,
+  "avg_cer": 0.0551,
+  "timestamp": "2026-07-03T10:45:23.916202"
+}

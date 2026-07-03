@@ -1,0 +1,12 @@
+{
+  "language": "bengali",
+  "language_code": "bn-IN",
+  "model": "gnani-prisma-v2.5",
+  "format": "transcribe",
+  "total_samples": 1783,
+  "success": 1780,
+  "errors": 3,
+  "avg_wer": 0.1394,
+  "avg_cer": 0.0479,
+  "timestamp": "2026-07-02T12:47:41.273720"
+}

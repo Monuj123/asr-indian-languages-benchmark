@@ -1,0 +1,12 @@
+{
+  "language": "telugu",
+  "language_code": "te-IN",
+  "model": "gnani-prisma-v2.5",
+  "format": "transcribe",
+  "total_samples": 1492,
+  "success": 1470,
+  "errors": 22,
+  "avg_wer": 0.2553,
+  "avg_cer": 0.0755,
+  "timestamp": "2026-07-01T23:23:53.308582"
+}

@@ -1,0 +1,12 @@
+{
+  "language": "hindi",
+  "language_code": "hi-IN",
+  "model": "gnani-prisma-v2.5",
+  "format": "transcribe",
+  "total_samples": 1929,
+  "success": 1914,
+  "errors": 15,
+  "avg_wer": 0.0878,
+  "avg_cer": 0.0326,
+  "timestamp": "2026-07-01T12:13:56.719873"
+}
