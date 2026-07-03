@@ -1,0 +1,12 @@
+{
+  "language": "tamil",
+  "language_code": "ta-IN",
+  "model": "saaras:v3",
+  "mode": "transcribe",
+  "total_samples": 1642,
+  "success": 1642,
+  "errors": 0,
+  "avg_wer": 0.2865,
+  "avg_cer": 0.0474,
+  "timestamp": "2026-06-30T16:24:00.065464"
+}

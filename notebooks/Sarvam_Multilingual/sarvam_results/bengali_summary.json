@@ -1,0 +1,12 @@
+{
+  "language": "bengali",
+  "language_code": "bn-IN",
+  "model": "saaras:v3",
+  "mode": "transcribe",
+  "total_samples": 1783,
+  "success": 1783,
+  "errors": 0,
+  "avg_wer": 0.2121,
+  "avg_cer": 0.0507,
+  "timestamp": "2026-06-29T17:00:18.980839"
+}
