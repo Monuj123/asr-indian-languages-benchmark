@@ -1,6 +1,6 @@
 # Sarvam ASR Evaluation Pipeline
 
-Evaluates **Saaras v3** (Sarvam AI's state-of-the-art ASR) on the **Kathbath** dataset.
+Evaluates **Gnani Prisma v2.5** (Gnani's state-of-the-art ASR) on the **Kathbath** dataset.
 
 ## Expected Dataset Layout
 
@@ -85,7 +85,7 @@ already-processed samples are skipped automatically.
 
 ## Notes
 
-- Sarvam REST API accepts audio **≤ 30 seconds** per file.
+- Gnani REST API accepts audio **≤ 30 seconds** per file.
   Files longer than 30s will return an error (status="error" in CSV).
 - Default delay between requests is **1.1 sec** (safe for free tier).
   Increase throughput by lowering `REQUEST_DELAY_SEC` in `evaluate.py` if you have a paid key.
