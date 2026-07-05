@@ -148,15 +148,15 @@ Top SOTA models evaluated per language. Metrics: **Word Error Rate (WER ↓)** a
 
 ### Hindi
 
-| S. No. | Model | Dataset | Test Samples | WER (%) | CER (%) |
-|------|-------|---------|--------------|---------|---------|
-| 1 | Vaani_FastConformer(Hindi)| IndicVoices-Hindi | 5530 | 15.11 | 7.09 |
-| 2 | IndicConformer(indic-conformer-600m-multilingual) | IndicVoices-Hindi | 5530 | 16.6(CTC) | 7.3(CTC) |
+| S. No. | Model | Source Type| Dataset | Test Samples | WER (%) | CER (%) |
+|------|-------|------|---------|--------------|---------|---------|
+| 1 | Vaani_FastConformer(Hindi)|Open| IndicVoices-Hindi | 5530 | 15.11 | 7.09 |
+| 2 | IndicConformer(indic-conformer-600m-multilingual)|Open | IndicVoices-Hindi | 5530 | 16.6(CTC) | 7.3(CTC) |
 |   |                                                   |                   |      | 15.3(RNNT | 7.2(RNNT)|       
-| 3 | IndicWav2Vec-Hindi | IndicVoices-Hindi | 5530 | 38.6 | 22.5 |
-| 4 | IndicWhisper-Hindi | Kathbath-Hindi | 1929 | 10.23 | 3.65 |
-| 5 | Sarvam Saaras v3 | Kathbath-Hindi | 1929 | 14.78 | 4.59 |
-| 6 | Gnani Prisma v2.5| Kathbath-Hindi | 1929 | 8.78 | 3.26 |
+| 3 | IndicWav2Vec-Hindi | Open|IndicVoices-Hindi | 5530 | 38.6 | 22.5 |
+| 4 | IndicWhisper-Hindi |Open|Kathbath-Hindi | 1929 | 10.23 | 3.65 |
+| 5 | Sarvam Saaras v3 | Close|Kathbath-Hindi | 1929 | 14.78 | 4.59 |
+| 6 | Gnani Prisma v2.5| Close|Kathbath-Hindi | 1929 | 8.78 | 3.26 |
 
 ### Bengali
 
