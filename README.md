@@ -155,52 +155,52 @@ Top SOTA models evaluated per language. Metrics: **Word Error Rate (WER ↓)** a
 |   |                                                   |                   |      | 15.3(RNNT | 7.2(RNNT)|       
 | 3 | IndicWav2Vec-Hindi | Open|IndicVoices-Hindi | 5530 | 38.6 | 22.5 |
 | 4 | IndicWhisper-Hindi |Open|Kathbath-Hindi | 1929 | 10.23 | 3.65 |
-| 5 | Sarvam Saaras v3 | Close|Kathbath-Hindi | 1929 | 14.78 | 4.59 |
-| 6 | Gnani Prisma v2.5| Close|Kathbath-Hindi | 1929 | 8.78 | 3.26 |
+| 5 | Sarvam Saaras v3 | Closed|Kathbath-Hindi | 1929 | 14.78 | 4.59 |
+| 6 | Gnani Prisma v2.5| Closed|Kathbath-Hindi | 1929 | 8.78 | 3.26 |
 
 ### Bengali
 
-| S. No. | Model | Dataset | Test Samples | WER (%) | CER (%) |
-|------|-------|---------|--------------|---------|---------|
-| 1 | IndicConformer(indic-conformer-600m-multilingual) | IndicVoices-Bengali | 3906 | 14.23(CTC) | 5.41(CTC) |
+| S. No. | Model | Source Type|Dataset | Test Samples | WER (%) | CER (%) |
+|------|-------|------|---------|--------------|---------|---------|
+| 1 | IndicConformer(indic-conformer-600m-multilingual)|Opem | IndicVoices-Bengali | 3906 | 14.23(CTC) | 5.41(CTC) |
 |   |                                                   |                     |      | 13.49(RNNT)| 5.36(RNNT)|
-| 2 | IndicWav2Vec(Bengali) | IndicVoices-Bengali | 3906 | 46.7 | 21.2 |
-| 3 | IndicWhisper(Bengali) | Kathbath-Bengali| 1783 | 19.22 | 5.51 |
-| 4 | Sarvam Saaras v3 | Kathbath-Bengali| 1783 | 21.21 | 5.07 |
-| 5 | Gnani Prisma v2.5| Kathbath-Bengali | 1783 | 13.94 | 4.79 |
+| 2 | IndicWav2Vec(Bengali)|Open | IndicVoices-Bengali | 3906 | 46.7 | 21.2 |
+| 3 | IndicWhisper(Bengali)|Open | Kathbath-Bengali| 1783 | 19.22 | 5.51 |
+| 4 | Sarvam Saaras v3|Closed | Kathbath-Bengali| 1783 | 21.21 | 5.07 |
+| 5 | Gnani Prisma v2.5|Closed | Kathbath-Bengali | 1783 | 13.94 | 4.79 |
 
 ### Marathi
 
-| S. No. | Model | Dataset | Test Samples | WER (%) | CER (%) |
-|------|-------|---------|--------------|---------|---------|
-| 1 | IndicConformer(indic-conformer-600m-multilingual) | IndicVoices-Marathi | 3552 | 16(CTC) | 5.69(CTC) |
+| S. No. | Model|Source Type | Dataset | Test Samples | WER (%) | CER (%) |
+|------|-------|------|---------|--------------|---------|---------|
+| 1 | IndicConformer(indic-conformer-600m-multilingual)|Open | IndicVoices-Marathi | 3552 | 16(CTC) | 5.69(CTC) |
 |  |  |  |  | 14.9(RNNT) | 5.61(RNNT) |
-| 2 | IndicWhisper(Marathi) | Kathbath-Marathi | 1631 | 20.25 | 6.52 |
-| 3 | Sarvam Saaras v3 |Kathbath-Marathi | 1631 | 20.46 | 5.96 |
-| 4 | Gnani Prisma v2.5| Kathbath-Marathi | 1631 | 16.89 | 5.72 |
+| 2 | IndicWhisper(Marathi)|Open | Kathbath-Marathi | 1631 | 20.25 | 6.52 |
+| 3 | Sarvam Saaras v3|Closed|Kathbath-Marathi | 1631 | 20.46 | 5.96 |
+| 4 | Gnani Prisma v2.5|Closed | Kathbath-Marathi | 1631 | 16.89 | 5.72 |
 
 ### Telugu
 
-| S. No. | Model | Dataset | Test Samples | WER (%) | CER (%) |
-|------|-------|---------|--------------|---------|---------|
-| 1 | IndicConformer(indic-conformer-600m-multilingual) | IndicVoices-Telugu | 3295 | 27.86(CTC), | 8.53(CTC) |
+| S. No. | Model | Source Type|Dataset | Test Samples | WER (%) | CER (%) |
+|------|-------|------|---------|--------------|---------|---------|
+| 1 | IndicConformer(indic-conformer-600m-multilingual)|Open | IndicVoices-Telugu | 3295 | 27.86(CTC), | 8.53(CTC) |
 |   |  |  |  | 26.28(RNNT) | 8.42(RNNT) |
-| 2 | ARTPARK-IISc/Vaani-FastConformer-Telugu | IndicVoices-Telugu | 3295 | 27.31 | 8.77 |
-| 3 | ARTPARK-IISc/whisper-medium-vaani-telugu| IndicVoices-Telugu | 3295 | 61.69 | 25.69 |
-| 4 | Sarvam Saaras v3| Kathbath-Telugu | 1492 | 24.8 | 3.7 |
-| 5 | IndicWhisper-Telugu| Kathbath-Telugu | 1492 | 36.9 | 12.9 |
-| 6 | Gnani Prisma v2.5| Kathbath-Telugu | 1492 | 25.53 | 7.55 |
+| 2 | ARTPARK-IISc/Vaani-FastConformer-Telugu|Open | IndicVoices-Telugu | 3295 | 27.31 | 8.77 |
+| 3 | ARTPARK-IISc/whisper-medium-vaani-telugu| Open|IndicVoices-Telugu | 3295 | 61.69 | 25.69 |
+| 4 | Sarvam Saaras v3| Closed|Kathbath-Telugu | 1492 | 24.8 | 3.7 |
+| 5 | IndicWhisper-Telugu| Open|Kathbath-Telugu|Open | 1492 | 36.9 | 12.9 |
+| 6 | Gnani Prisma v2.5| Closed |Kathbath-Telugu | 1492 | 25.53 | 7.55 |
 
 
 ### Tamil
 
-| S. No. | Model | Dataset | Test Samples | WER (%) | CER (%) |
-|------|-------|---------|--------------|---------|---------|
-| 1 | IndicConformer(indic-conformer-600m-multilingual) | IndicVoices-Tamil | 5276 | 34.7(CTC) | 10.1(CTC) |
+| S. No. | Model | Source Type|Dataset | Test Samples | WER (%) | CER (%) |
+|------|-------|------|---------|--------------|---------|---------|
+| 1 | IndicConformer(indic-conformer-600m-multilingual)|Open | IndicVoices-Tamil | 5276 | 34.7(CTC) | 10.1(CTC) |
 |  |  |  |  | 30.7(RNNT) | 9.1(RNNT) |
-| 2 | IndicWhisper(Tamil) | Kathbath-Tamil | 1642 | 24.9 | 4.47 |
-| 3 | Sarvam Saaras v3 | Kathbath-Tamil | 1642 | 28.65 | 4.74 |
-| 4 | Gnani Prisma v2.5| Kathbath-Tamil | 1642 | 24.96 | 5.51 |
+| 2 | IndicWhisper(Tamil)|Open | Kathbath-Tamil | 1642 | 24.9 | 4.47 |
+| 3 | Sarvam Saaras v3|Closed | Kathbath-Tamil | 1642 | 28.65 | 4.74 |
+| 4 | Gnani Prisma v2.5|Closed| Kathbath-Tamil | 1642 | 24.96 | 5.51 |
 
 ---
 
