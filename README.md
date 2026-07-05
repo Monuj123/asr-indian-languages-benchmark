@@ -52,6 +52,12 @@ asr-indian-languages-benchmark/
     └── tamil/
         └── IndicConformerASR_IndicVoices_Tamil.ipynb
         └── IndicWhisper_Kathbath_Tamil.ipynb
+    └── Gnani_Multilingual/
+        └── evaluate_gnani.py
+        └── gnani_results
+    └── Sarvam_Multilingual/
+        └── evaluate.py
+        └── sarvam_results
 ```
 
 ---
