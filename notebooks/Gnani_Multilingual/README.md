@@ -58,6 +58,14 @@ python evaluate.py \
   --dataset_root "C:\path\to\kathbath" \
   --languages hindi tamil marathi
 ```
+### Full evaluation with api key provided
+```bash
+python evaluate.py \
+  --dataset_root "C:\path\to\kathbath" \
+  --languages hindi \
+  --api-key "your_api_key_here"
+```
+
 
 ## Outputs  (saved to `./sarvam_results/`)
 
