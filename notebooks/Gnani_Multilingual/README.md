@@ -1,4 +1,4 @@
-# Sarvam ASR Evaluation Pipeline
+# Gnani ASR Evaluation Pipeline
 
 Evaluates **Gnani Prisma v2.5** (Gnani's state-of-the-art ASR) on the **Kathbath** dataset.
 
