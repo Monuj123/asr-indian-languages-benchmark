@@ -29,10 +29,10 @@ python -m venv .venv
 # 2. Install dependencies
 pip install -r requirements.txt
 
-# 3. Set your Sarvam API key
-#    Get one free at: https://dashboard.sarvam.ai/
-set SARVAM_API_KEY=your_key_here      # Windows CMD
-# export SARVAM_API_KEY=your_key_here # macOS/Linux
+# 3. Set your Gnani API key
+#    Get one free at: https://www.gnani.ai/speech-to-text-api
+set GNANI_API_KEY=your_key_here      # Windows CMD
+# export GNANI_API_KEY=your_key_here # macOS/Linux
 ```
 
 ## Run
