@@ -67,7 +67,7 @@ python evaluate.py \
 ```
 
 
-## Outputs  (saved to `./sarvam_results/`)
+## Outputs  (saved to `./gnani_results/`)
 
 | File | Description |
 |------|-------------|
