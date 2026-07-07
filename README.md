@@ -10,7 +10,7 @@
 - [Repository Structure](#repository-structure)
 - [Getting Started](#getting-started)
 - [Running the Notebooks](#running-the-notebooks)
-- [Getting API Keys / Tokens](#getting-api-keys-tokens)
+- [Getting API Keys/Tokens](#getting-api-keys--tokens)
 - [Requirements](#requirements)
 - [Experimental Results](#experimental-results)
 - [Conclusion](#conclusion)
