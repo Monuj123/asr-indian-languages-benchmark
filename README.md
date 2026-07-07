@@ -126,13 +126,33 @@ jupyter lab
 Datasets are loaded directly from [HuggingFace Datasets](https://huggingface.co/datasets) — no manual download required.
 
 ---
-## APIs & Model Sources Used
+
+
+## Getting API Keys / Tokens
  
-| Source | Type | API / Docs Link | Used For |
-|--------|------|------------------|----------|
-| Gnani Prisma v2.5 | Commercial API | [docs.gnani.ai](https://docs.gnani.ai) · [gnani.ai/models](https://www.gnani.ai/models) · [REST API setup guide](https://gnani-ai.github.io/API-service/) | ASR inference (this pipeline) |
-| Sarvam Saaras v3 | Commercial API | [dashboard.sarvam.ai](https://dashboard.sarvam.ai/) | ASR inference, LLM-WER scoring |
-| Hugging Face | Model hub |  [huggingface.co](https://huggingface.co/) | IndicConformer, IndicWhisper, IndicWav2Vec, Vaani-FastConformer |
+| Source | Where to Get It | Notes |
+|--------|------------------|-------|
+| Gnani Prisma v2.5 | [https://gnani.ai/prisma/](https://www.gnani.ai/speech-to-text-api) (request access / contact sales) | Commercial — you'll get an API key + secret pair |
+| Sarvam Saaras v3 | [https://dashboard.sarvam.ai/](https://dashboard.sarvam.ai/) → Sign up → API Keys | Free tier available |
+| Hugging Face | [https://huggingface.co/settings/tokens](https://huggingface.co/settings/tokens) → New token (read access is enough for downloading models) | Needed to pull IndicConformer, IndicWhisper, IndicWav2Vec, Vaani-FastConformer checkpoints |
+
+Once you have the keys, set them as environment variables (same pattern as **Setup** above):
+ 
+```bash
+# macOS/Linux
+export GNANI_API_KEY=your_key_here
+export GNANI_API_SECRET=your_secret_here
+export SARVAM_API_KEY=your_key_here
+export HF_TOKEN=your_huggingface_token_here
+ 
+# Windows CMD
+set GNANI_API_KEY=your_key_here
+set GNANI_API_SECRET=your_secret_here
+set SARVAM_API_KEY=your_key_here
+set HF_TOKEN=your_huggingface_token_here
+```
+
+
 ---
 
 ## Requirements
