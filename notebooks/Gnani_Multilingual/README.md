@@ -1,16 +1,12 @@
 # Gnani ASR Evaluation Pipeline
  
 Evaluates **Prisma v2.5** (Gnani.ai's ASR model) on the **Kathbath** dataset.
- 
-> **Note:** Gnani Prisma v2.5 is benchmarked against the **Noisy 8kHz** variant of Kathbath
-> (not the clean 16kHz variant used for the open-source models / Sarvam Saaras v3).
-> Keep this in mind when comparing WER/CER results across models — it is not a like-for-like
-> comparison unless you resample and re-run consistently.
+
  
 ## Expected Dataset Layout
  
 ```
-kathbath_noisy_8khz/
+kathbath/
 └── hindi/
     ├── manifest.json       ← one JSON object per line: audio_filepath, duration, text
     └── wav/
@@ -58,7 +54,7 @@ python evaluate.py \
  
 ```bash
 python evaluate.py \
-  --dataset_root "C:\path\to\kathbath_noisy_8khz" \
+  --dataset_root "C:\path\to\kathbath" \
   --languages hindi
 ```
  
@@ -66,7 +62,7 @@ python evaluate.py \
  
 ```bash
 python evaluate.py \
-  --dataset_root "C:\path\to\kathbath_noisy_8khz" \
+  --dataset_root "C:\path\to\kathbath" \
   --languages hindi tamil marathi
 ```
  
@@ -97,8 +93,7 @@ already-processed samples are skipped automatically.
 ## Notes
  
 - The Gnani Prisma v2.5 API expects **8kHz** audio input; files at other sample rates
-  should be resampled before upload or they may be silently downsampled by the server,
-  which can distort results.
+  should be resampled before upload or they may be silently downsampled by the server.
 - Audio is scored against the **Noisy** Kathbath split — this variant includes background
   noise augmentation, so raw WER/CER numbers will generally run higher than on clean-audio
   benchmarks and should not be directly compared to models evaluated on clean Kathbath.
