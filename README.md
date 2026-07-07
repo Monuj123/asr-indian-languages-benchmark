@@ -119,10 +119,20 @@ jupyter lab
 | `IndicWhisper_Kathbath_Telugu.ipynb` | Dataset loading, model evaluation, WER/CER for Telugu |
 
 
+
+
 > ⚠️ **Start with `speech_signal_processing.ipynb`** before running any language notebook.
 
 Datasets are loaded directly from [HuggingFace Datasets](https://huggingface.co/datasets) — no manual download required.
 
+---
+## APIs & Model Sources Used
+ 
+| Source | Type | API / Docs Link | Used For |
+|--------|------|------------------|----------|
+| Gnani Prisma v2.5 | Commercial API | [docs.gnani.ai](https://docs.gnani.ai) · [gnani.ai/models](https://www.gnani.ai/models) · [REST API setup guide](https://gnani-ai.github.io/API-service/) | ASR inference (this pipeline) |
+| Sarvam Saaras v3 | Commercial API | [dashboard.sarvam.ai](https://dashboard.sarvam.ai/) | ASR inference, LLM-WER scoring |
+| Hugging Face | Model hub |  [huggingface.co](https://huggingface.co/) | IndicConformer, IndicWhisper, IndicWav2Vec, Vaani-FastConformer |
 ---
 
 ## Requirements
