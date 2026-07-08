@@ -31,7 +31,7 @@ This benchmark covers open-source and commercial ASR systems for Indian language
 
 ### Open-Source Models
  
-| Model | Type / Architecture | Org | Languages | Notes |
+| Model | Type / Architecture | Organization | Languages | Notes |
 |---|---|---|---|---|
 | **IndicWhisper** | Encoder-decoder transformer (Whisper fine-tune) | AI4Bharat | Hindi + major Indic languages | Whisper backbone fine-tuned on Indic speech (Shrutilipi, MUCS, etc.); multitask token format inherited from Whisper. |
 | **IndicWav2Vec** | Self-supervised CNN + transformer encoder, CTC decoding | AI4Bharat | 9+ Indian languages | Based on wav2vec 2.0 pretraining, fine-tuned with CTC head; strong low-resource performance. |
