@@ -292,6 +292,13 @@ Overall, for multilingual Indic ASR, IndicConformer-600M RNNT is the recommended
 
 ## References
 
+Bhogale, K. S., Sundaresan, S., Raman, A., Javed, T., Khapra, M. M., & Kumar, P. (2023). Vistaar: Diverse Benchmarks and Training Sets for Indian Language ASR. arXiv:2305.15386. https://arxiv.org/abs/2305.15386
+Javed, T., Nawale, J. A., George, E. I., Joshi, S., Bhogale, K. S., Mehendale, D., Sethi, I. V., Ananthanarayanan, A., Faquih, H., Palit, P., Ravishankar, S., Sukumaran, S., Panchagnula, T., Murali, S., Gandhi, K. S., R, A., M, M. K., Vaijayanthi, C. V., Karunganni, K. S. R., Kumar, P., & Khapra, M. M. (2024). IndicVoices: Towards building an Inclusive Multilingual Speech Dataset for Indian Languages. arXiv:2403.01926. https://arxiv.org/abs/2403.01926
+Javed, T., Bhogale, K. S., Raman, A., Kunchukuttan, A., Kumar, P., & Khapra, M. M. (2022). IndicSUPERB: A Speech Processing Universal Performance Benchmark for Indian languages. arXiv:2208.11761. https://arxiv.org/abs/2208.11761
+Sarvam AI. Evaluating Indian Language ASR. Sarvam AI Blog. https://www.sarvam.ai/blogs/evaluating-indian-language-asr
+Gnani.ai. Gnani.ai — Conversational AI Platform. https://www.gnani.ai/
+
+
 
 
 ---
