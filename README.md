@@ -7,6 +7,8 @@
 ## 📋 Table of Contents
 
 - [Overview](#overview)
+- [Models Evaluated](#models-evaluated)
+- [Datasets Used](#datasets-used)
 - [Repository Structure](#repository-structure)
 - [Getting Started](#getting-started)
 - [Running the Notebooks](#running-the-notebooks)
