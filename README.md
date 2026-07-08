@@ -45,7 +45,15 @@ This benchmark covers open-source and commercial ASR systems for Indian language
 
 
 ---
+## Datasets Used
+ 
+| Dataset | Type / Source | Languages | Notes |
+|---|---|---|---|
+| **Kathbath** | Read-speech corpus, crowd-sourced via Karya platform | 12 Indian languages | Released by AI4Bharat; ~1,700 hrs total across languages, recorded by native speakers reading local news/Wikipedia-style text. Has a **Noisy 8kHz** variant (telephone-quality) used by some commercial APIs (e.g. Gnani), which is *not* directly comparable to clean 16kHz evaluation — a key caveat in this benchmark. |
+| **IndicVoices** | Natural, spontaneous conversational speech corpus | 22+ Indian languages, incl. low-resource NE India varieties | Released by AI4Bharat; captures diverse real-world speaking styles, dialects, and code-mixing, harder and more realistic than read-speech corpora like Kathbath, useful for stress-testing generalization beyond scripted audio. |
 
+
+---
 ## Repository Structure
 
 ```
