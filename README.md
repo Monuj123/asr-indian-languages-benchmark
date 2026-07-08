@@ -140,6 +140,8 @@ jupyter lab
 | `IndicWhisper_Kathbath_Bengali.ipynb` | Dataset loading, model evaluation, WER/CER for Bengali |
 | `IndicWhisper_Kathbath_Hindi.ipynb` | Dataset loading, model evaluation, WER/CER for Hindi |
 | `IndicWhisper_Kathbath_Telugu.ipynb` | Dataset loading, model evaluation, WER/CER for Telugu |
+| `Gnani_Multilingual` | Dataset loading, model evaluation, WER/CER for All 5 lang(Hindi,Tamil,Telugu,Marathi,Bengali) |
+| `Sarvam_Multilingual` | Dataset loading, model evaluation, WER/CER for All 5 lang(Hindi,Tamil,Telugu,Marathi,Bengali) |
 
 
 
