@@ -36,7 +36,7 @@ This benchmark covers open-source and commercial ASR systems for Indian language
 | **IndicWhisper** | Encoder-decoder transformer (Whisper fine-tune) | AI4Bharat | Hindi + major Indic languages | Whisper backbone fine-tuned on Indic speech (Shrutilipi, MUCS, etc.); multitask token format inherited from Whisper. |
 | **IndicWav2Vec** | Self-supervised CNN + transformer encoder, CTC decoding | AI4Bharat | 9+ Indian languages | Based on wav2vec 2.0 pretraining, fine-tuned with CTC head; strong low-resource performance. |
 | **IndicConformer** (CTC / RNN-T) | Conformer encoder, with CTC or RNN-Transducer decoding heads | AI4Bharat | Hindi, Bengali, Tamil, Telugu, Marathi, Assamese, and more | Available as `IndicConformer-600M-multilingual`; RNN-T variant generally outperforms CTC in this benchmark. |
-| **Vaani FastConformer** | FastConformer (NeMo) encoder, streaming-capable | AI4Bharat / Vaani project | Indic languages incl. low-resource/NE India varieties | NeMo-based, optimized for lower latency/streaming vs. standard Conformer. |
+| **Vaani FastConformer** | FastConformer (NeMo) encoder, streaming-capable |  Vaani project | Indic languages incl. low-resource/NE India varieties | NeMo-based, optimized for lower latency/streaming vs. standard Conformer. |
 
 ### Commercial APIs
  
