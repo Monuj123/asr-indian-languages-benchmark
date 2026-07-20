@@ -1,0 +1,10 @@
+reference,prediction,context_reference,context_prediction,equivalent,reasoning
+पहुंचती,पहुँचती,,,True,"The reference 'पहुंचती' (pahunchee) and prediction 'पहुँचती' (pahunchee) are common spelling variations of the same word, differing only in the use of anusvara vs. chandrabindu."
+बन्द,बंद,,,True,"The reference 'बन्द' (band) and prediction 'बंद' (band) are standard spelling variations of the same word, using half-nasal 'न' vs. anusvara."
+एक्सट्रा,एक्स्ट्रा,,,True,The reference 'एक्सट्रा' (ekstra) and prediction 'एक्स्ट्रा' (ekstra) are minor phonetic spelling variations of the English loanword 'extra'.
+एफएआर,एफआईआर,,,False,The reference 'एफएआर' (FAR) and prediction 'एफआईआर' (FIR) represent different acronyms with distinct meanings and pronunciations.
+ढाढस,ढांढस,,,True,The reference 'ढाढस' (dhaadhas) and prediction 'ढांढस' (dhaandhas) are common spelling variations of the same word meaning consolation.
+फोटोज,फोटोज़,,,True,"The reference 'फोटोज' (photos) and prediction 'फोटोज़' (photos) differ only by the use of a nuqta (ज vs ज़) to represent the English 'z' sound, which is a minor spelling variation."
+अंदाज,अंदाज़,,,True,"The reference 'अंदाज' (andaaz) and prediction 'अंदाज़' (andaaz) differ only by the use of a nuqta (ज vs ज़), which is a common spelling variation."
+देहान्त,देहांत,,,True,"The reference 'देहान्त' (dehaant) and prediction 'देहांत' (dehaant) are standard spelling variations of the same word, using half-nasal 'न' vs. anusvara."
+परिणामस्वरूप,परिणाम स्वरूप,,,True,The reference 'परिणामस्वरूप' (parinaamswaroop) and prediction 'परिणाम स्वरूप' (parinaam swaroop) represent the same compound word with a minor variation in spacing.
