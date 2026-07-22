@@ -228,7 +228,10 @@ Top SOTA models evaluated per language. Metrics: **Word Error Rate (WER ↓)** a
 | 4 | IndicWhisper-Hindi |Open|Kathbath-Hindi | 1929 | 10.23 | 3.65 |
 | 5 | Sarvam Saaras v3 | Closed|Kathbath-Hindi | 1929 | 14.78 | 4.59 |
 | 6 | Gnani Prisma v2.5| Closed|Kathbath-Hindi | 1929 | 8.78 | 3.26 |
-
+| 7 | Vaani_FastConformer(Hindi)|Open| Kathbath-Hindi | 1929 | 12.49 | 4.3 |
+| 8 | IndicConformer(indic-conformer-600m-multilingual)|Open | Kathbath-Hindi | 1929 | 9.74(CTC) | 3.17(CTC) |
+|   |         |                                          |                   |      | 9.44(RNNT | 3.07(RNNT)|   
+| 9 | IndicWav2Vec-Hindi | Open|Kathbath-Hindi | 1929 | 12.49| 4.3 |
 ### Bengali
 
 | S. No. | Model | Source Type|Dataset | Test Samples | WER (%) | CER (%) |
@@ -239,6 +242,9 @@ Top SOTA models evaluated per language. Metrics: **Word Error Rate (WER ↓)** a
 | 3 | IndicWhisper(Bengali)|Open | Kathbath-Bengali| 1783 | 19.22 | 5.51 |
 | 4 | Sarvam Saaras v3|Closed | Kathbath-Bengali| 1783 | 21.21 | 5.07 |
 | 5 | Gnani Prisma v2.5|Closed | Kathbath-Bengali | 1783 | 13.94 | 4.79 |
+| 6 | IndicWav2Vec(Bengali)|Open | Kathbath-Bengali | 1783 | 22.69 | 4.68 |
+| 7 | IndicConformer(indic-conformer-600m-multilingual)|Open | Kathbath-Bengali | 1783 | 13.58(CTC) | 3.94(CTC) |
+|   |                  |                                 |                     |      | 13.2(RNNT)| 3.82(RNNT)|
 
 ### Marathi
 
@@ -249,6 +255,8 @@ Top SOTA models evaluated per language. Metrics: **Word Error Rate (WER ↓)** a
 | 2 | IndicWhisper(Marathi)|Open | Kathbath-Marathi | 1631 | 20.25 | 6.52 |
 | 3 | Sarvam Saaras v3|Closed|Kathbath-Marathi | 1631 | 20.46 | 5.96 |
 | 4 | Gnani Prisma v2.5|Closed | Kathbath-Marathi | 1631 | 16.89 | 5.72 |
+| 5 | IndicConformer(indic-conformer-600m-multilingual)|Open | Kathbath-Marathi | 1631 | 17.61(CTC) | 5.62(CTC) |
+|  |  | |  |  | 17.14(RNNT) | 5.5(RNNT) |
 
 ### Telugu
 
@@ -261,6 +269,9 @@ Top SOTA models evaluated per language. Metrics: **Word Error Rate (WER ↓)** a
 | 4 | Sarvam Saaras v3| Closed|Kathbath-Telugu | 1492 | 24.8 | 3.7 |
 | 5 | IndicWhisper-Telugu| Open|Kathbath-Telugu|Open | 1492 | 36.9 | 12.9 |
 | 6 | Gnani Prisma v2.5| Closed |Kathbath-Telugu | 1492 | 25.53 | 7.55 |
+| 7 | IndicConformer(indic-conformer-600m-multilingual)|Open | Kathbath-Telugu | 1492 | 21.92(CTC), | 3.63(CTC) |
+|   |  | | |  | 21.37(RNNT) | 3.55(RNNT) |
+| 8 | ARTPARK-IISc/Vaani-FastConformer-Telugu|Open | Kathbath-Telugu | 1492 | 23.29 | 4.06 |
 
 
 ### Tamil
@@ -272,6 +283,8 @@ Top SOTA models evaluated per language. Metrics: **Word Error Rate (WER ↓)** a
 | 2 | IndicWhisper(Tamil)|Open | Kathbath-Tamil | 1642 | 24.9 | 4.47 |
 | 3 | Sarvam Saaras v3|Closed | Kathbath-Tamil | 1642 | 28.65 | 4.74 |
 | 4 | Gnani Prisma v2.5|Closed| Kathbath-Tamil | 1642 | 24.96 | 5.51 |
+| 5 | IndicConformer(indic-conformer-600m-multilingual)|Open | Kathbath-Tamil | 1642 | 24.59(CTC) | 4.29(CTC) |
+|  |  | | |  | 23.37(RNNT) | 3.95(RNNT) |
 
 ---
 
