@@ -267,7 +267,7 @@ Top SOTA models evaluated per language. Metrics: **Word Error Rate (WER ↓)** a
 | 2 | ARTPARK-IISc/Vaani-FastConformer-Telugu|Open | IndicVoices-Telugu | 3295 | 27.31 | 8.77 |
 | 3 | ARTPARK-IISc/whisper-medium-vaani-telugu| Open|IndicVoices-Telugu | 3295 | 61.69 | 25.69 |
 | 4 | Sarvam Saaras v3| Closed|Kathbath-Telugu | 1492 | 24.8 | 3.7 |
-| 5 | IndicWhisper-Telugu| Open|Kathbath-Telugu|Open | 1492 | 36.9 | 12.9 |
+| 5 | IndicWhisper-Telugu| Open|Kathbath-Telugu | 1492 | 36.9 | 12.9 |
 | 6 | Gnani Prisma v2.5| Closed |Kathbath-Telugu | 1492 | 25.53 | 7.55 |
 | 7 | IndicConformer(indic-conformer-600m-multilingual)|Open | Kathbath-Telugu | 1492 | 21.92(CTC), | 3.63(CTC) |
 |   |  | | |  | 21.37(RNNT) | 3.55(RNNT) |
