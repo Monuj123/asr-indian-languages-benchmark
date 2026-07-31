@@ -290,18 +290,22 @@ Top SOTA models evaluated per language. Metrics: **Word Error Rate (WER ↓)** a
 
 ## Conclusion
 
-This project establishes a reproducible benchmark for ASR across India's five most spoken languages. Key observations from the experiments:
+This project establishes a reproducible benchmark for ASR across India's five most spoken languages, evaluated on both natural/spontaneous speech (IndicVoices) and clean read-speech (Kathbath). Key observations:
 
-- IndicConformer-600M-Multilingual with RNNT decoding is the strongest open-source model across all five languages, achieving the best WER in Bengali (13.49%), Marathi (14.9%), Hindi (15.3%), Telugu (26.28%), and Tamil (30.7%). The RNNT decoder consistently outperforms CTC across every language and metric, with the gap being most notable in Tamil (30.7% vs 34.7%) and Telugu (26.28% vs 27.86%).
+- **IndicConformer-600M-Multilingual (RNNT) is the strongest and most consistent open-source model.** RNNT decoding outperforms CTC in every single language/dataset pairing measured, with the largest gaps on Tamil (30.7% vs 34.7% WER, IndicVoices) and Telugu (26.28% vs 27.86% WER, IndicVoices).
 
-- Among commercial APIs, Gnani Prisma v2.5 outperforms Sarvam Saaras v3 on Hindi (8.78% vs 14.78% WER) and Telugu (25.53% vs 24.8% WER), while Saaras v3 has a slight edge on Telugu CER (3.7% vs 7.55%). Notably, Gnani Hindi (8.78% WER) is the single best result across all models and languages in this benchmark, outperforming even IndicConformer on Kathbath-Hindi.
-- Vaani-FastConformer-Hindi is the sole exception to IndicConformer's dominance, edging it out on Hindi with a WER of 15.11% vs 15.3% (RNNT). For Hindi-only deployments, it is the preferred choice.
-- Telugu is the most competitive language in this benchmark, with IndicConformer RNNT (26.28%) and Vaani-FastConformer-Telugu (27.31%) separated by less than 1 percentage point — both are viable options depending on deployment constraints.
-- Vaani-FastConformer-Hindi is the sole open-source model that challenges IndicConformer, edging it on Hindi (15.11% vs 15.3% RNNT), making it the preferred choice for Hindi-only deployments. In contrast, IndicWav2Vec models lag far behind, scoring 38.6% WER on Hindi and 46.7% on Bengali compared to sub-17% and sub-14% from IndicConformer , making them unsuitable for production use.
-- Tamil remains the hardest language in this benchmark, with the best result at 30.7% WER (IndicConformer RNNT), nearly twice the error rate of Bengali (13.49%), suggesting limited training data coverage or greater acoustic complexity. Bengali is the easiest, with consistently strong results across all models.
+- **On Kathbath, IndicConformer RNNT beats *both* commercial APIs in 3 of 5 languages** — Bengali (13.2% WER / 3.82% CER vs. Gnani's 13.94%/4.79%), Telugu (21.37%/3.55% vs. Sarvam's 24.8%/3.7% and Gnani's 25.53%/7.55%), and Tamil (23.37%/3.95%, best of all five models tested, ahead of IndicWhisper, Sarvam, and Gnani). This is a meaningfully different picture than "commercial beats open-source" — it mostly doesn't, once RNNT decoding is used.
 
-Overall, for multilingual Indic ASR, IndicConformer-600M RNNT is the recommended open-source baseline, while Gnani Prisma v2.5 is the best-performing commercial option tested in this benchmark. 
+- **Hindi and Marathi are the two languages where a commercial API (Gnani) edges out IndicConformer on WER** — Hindi (8.78% vs. 9.44%) and Marathi (16.89% vs. 17.14%) — though IndicConformer still wins or ties on CER in both cases (3.07% vs. 3.26% Hindi; 5.5% vs. 5.72% Marathi). Gnani's Hindi result (8.78% WER) is the single best number in the whole benchmark.
 
+
+- **On IndicVoices (harder, spontaneous speech), Vaani-FastConformer-Hindi is the only model that edges out IndicConformer**, on Hindi specifically (15.11% vs. 15.3% WER, RNNT) — making it a reasonable pick for Hindi-only, low-latency deployments. On Telugu, Vaani-FastConformer-Telugu (27.31%/8.77%) trails IndicConformer RNNT (26.28%/8.42%) by less than a point, making both viable depending on latency/streaming requirements.
+
+- **IndicWav2Vec is not production-viable.** It trails IndicConformer badly on every language tested — 38.6% vs. 15.3% WER on Hindi (IndicVoices) and 46.7% vs. 13.49% on Bengali (IndicVoices) — and remains behind even on the easier Kathbath set.
+
+- **Tamil is the hardest language in the benchmark** (best result: 23.37% WER on Kathbath, 30.7% on IndicVoices), roughly double Bengali's error rate (13.2%/13.49%), pointing to lower training-data coverage and/or higher acoustic/script complexity. **Bengali is the easiest**, with the strongest results across nearly every model tested.
+
+**Overall recommendation:** IndicConformer-600M-Multilingual (RNNT) is the recommended default across all five languages — it is either the best or a very close second in every language on both datasets, and beats the commercial APIs outright on Bengali, Telugu, and Tamil. Gnani Prisma v2.5 is worth considering specifically for Hindi and Marathi, with the 8kHz-evaluation caveat above kept in mind. Vaani-FastConformer remains the pick where streaming/low-latency inference matters more than the last fraction of a WER point.
 
 ---
 
