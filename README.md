@@ -305,7 +305,7 @@ This project establishes a reproducible benchmark for ASR across India's five mo
 
 - **Tamil is the hardest language in the benchmark** (best result: 23.37% WER on Kathbath, 30.7% on IndicVoices), roughly double Bengali's error rate (13.2%/13.49%), pointing to lower training-data coverage and/or higher acoustic/script complexity. **Bengali is the easiest**, with the strongest results across nearly every model tested.
 
-**Overall recommendation:** IndicConformer-600M-Multilingual (RNNT) is the recommended default across all five languages — it is either the best or a very close second in every language on both datasets, and beats the commercial APIs outright on Bengali, Telugu, and Tamil. Gnani Prisma v2.5 is worth considering specifically for Hindi and Marathi, with the 8kHz-evaluation caveat above kept in mind. Vaani-FastConformer remains the pick where streaming/low-latency inference matters more than the last fraction of a WER point.
+**Overall recommendation:** IndicConformer-600M-Multilingual (RNNT) is the recommended default across all five languages — it is either the best or a very close second in every language on both datasets, and beats the commercial APIs outright on Bengali, Telugu, and Tamil. Gnani Prisma v2.5 is worth considering specifically for Hindi and Marathi. Vaani-FastConformer remains the pick where streaming/low-latency inference matters more than the last fraction of a WER point.
 
 ---
 
