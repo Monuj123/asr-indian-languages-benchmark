@@ -232,6 +232,8 @@ Top SOTA models evaluated per language. Metrics: **Word Error Rate (WER ↓)** a
 | 8 | IndicConformer(indic-conformer-600m-multilingual)|Open | Kathbath-Hindi | 1929 | 9.74(CTC) | 3.17(CTC) |
 |   |         |                                          |                   |      | 9.44(RNNT | 3.07(RNNT)|   
 | 9 | IndicWav2Vec-Hindi | Open|Kathbath-Hindi | 1929 | 12.49| 4.3 |
+| 10 | ARTPARK-IISc/SraVaani-1.0 | Open | Kathbath-Hindi | 1929 | 8.96 | 3.19 |
+
 ### Bengali
 
 | S. No. | Model | Source Type|Dataset | Test Samples | WER (%) | CER (%) |
@@ -245,6 +247,8 @@ Top SOTA models evaluated per language. Metrics: **Word Error Rate (WER ↓)** a
 | 6 | IndicWav2Vec(Bengali)|Open | Kathbath-Bengali | 1783 | 22.69 | 4.68 |
 | 7 | IndicConformer(indic-conformer-600m-multilingual)|Open | Kathbath-Bengali | 1783 | 13.58(CTC) | 3.94(CTC) |
 |   |                  |                                 |                     |      | 13.2(RNNT)| 3.82(RNNT)|
+| 8 | ARTPARK-IISc/SraVaani-1.0 | Open | Kathbath-Bengali | 1783 | 12.27 | 4.09 |
+
 
 ### Marathi
 
@@ -257,6 +261,7 @@ Top SOTA models evaluated per language. Metrics: **Word Error Rate (WER ↓)** a
 | 4 | Gnani Prisma v2.5|Closed | Kathbath-Marathi | 1631 | 16.89 | 5.72 |
 | 5 | IndicConformer(indic-conformer-600m-multilingual)|Open | Kathbath-Marathi | 1631 | 17.61(CTC) | 5.62(CTC) |
 |  |  | |  |  | 17.14(RNNT) | 5.5(RNNT) |
+| 6 | ARTPARK-IISc/SraVaani-1.0 | Open | Kathbath-Marathi | 1631 | 17.02 | 6.19 |
 
 ### Telugu
 
@@ -272,6 +277,7 @@ Top SOTA models evaluated per language. Metrics: **Word Error Rate (WER ↓)** a
 | 7 | IndicConformer(indic-conformer-600m-multilingual)|Open | Kathbath-Telugu | 1492 | 21.92(CTC), | 3.63(CTC) |
 |   |  | | |  | 21.37(RNNT) | 3.55(RNNT) |
 | 8 | ARTPARK-IISc/Vaani-FastConformer-Telugu|Open | Kathbath-Telugu | 1492 | 23.29 | 4.06 |
+| 9 | ARTPARK-IISc/SraVaani-1.0 | Open | Kathbath-Telugu | 1492 | 21.00 | 3.16 |
 
 
 ### Tamil
@@ -285,7 +291,7 @@ Top SOTA models evaluated per language. Metrics: **Word Error Rate (WER ↓)** a
 | 4 | Gnani Prisma v2.5|Closed| Kathbath-Tamil | 1642 | 24.96 | 5.51 |
 | 5 | IndicConformer(indic-conformer-600m-multilingual)|Open | Kathbath-Tamil | 1642 | 24.59(CTC) | 4.29(CTC) |
 |  |  | | |  | 23.37(RNNT) | 3.95(RNNT) |
-
+| 8 | ARTPARK-IISc/SraVaani-1.0 | Open | Kathbath-Tamil | 1642 | 22.63 | 3.69 |
 ---
 
 ## Conclusion
