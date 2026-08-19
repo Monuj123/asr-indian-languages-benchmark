@@ -37,6 +37,7 @@ This benchmark covers open-source and commercial ASR systems for Indian language
 | **IndicWav2Vec** | Self-supervised CNN + transformer encoder, CTC decoding | AI4Bharat | 9+ Indian languages | Based on wav2vec 2.0 pretraining, fine-tuned with CTC head; strong low-resource performance. |
 | **IndicConformer** (CTC / RNN-T) | Conformer encoder, with CTC or RNN-Transducer decoding heads | AI4Bharat | Hindi, Bengali, Tamil, Telugu, Marathi, Assamese, and more | Available as `IndicConformer-600M-multilingual`; RNN-T variant generally outperforms CTC in this benchmark. |
 | **Vaani FastConformer** | FastConformer (NeMo) encoder, streaming-capable |  Vaani project | Indic languages incl. low-resource/NE India varieties | NeMo-based, optimized for lower latency/streaming vs. standard Conformer. |
+| **ARTPARK-IISc/SraVaani-1.0** | 	FastConformer encoder + hybrid CTC-TDT decoder, ~430M params (FP16, ~900MB) |  	IISc SPIRE Lab + ARTPARK, with Google support | 	65 Indian languages/dialects (20 scheduled + 45 regional), 10 scripts, auto language ID | 	Pretrained on 31,255 hrs of Vaani speech data; multimodal audio-image alignment stage; MIT-licensed, open-sourced Aug 2026 |
 
 ### Commercial APIs
  
